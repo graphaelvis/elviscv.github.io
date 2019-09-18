@@ -1,0 +1,147 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	background-color:#efefef;
+	font-family: sans-serif;
+}
+.profile{
+	width: 40%;
+	float:right;
+	height:60%;
+
+}
+.profile img{
+	width: 100%;
+	height:100%;
+
+}
+.about{
+	margin-left: 15px;
+}
+.info{
+	width:60%;
+	height: 100vh;
+	float: left;
+	padding: 0 30px ;
+	overflow:scroll;
+	overflow-x: hidden;
+
+}
+.info::-webkit-scrollbar{
+	width: 0;
+}
+.info h1{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.social img{
+	height: 30px;
+	margin-right: 15px;
+}
+.social{
+	margin-top:20px;
+	margin-left:15px;
+}
+.info h2{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.exp img{
+	margin: 5px;
+	height: 5%;
+	
+}
+.exp{
+	display: inline-block;
+	width: 28%;
+	padding: 30px 10px;
+	margin: 2%;
+	text-align: center;
+	box-shadow: 0 0 15px rgba(37,73,21,214,0.18);
+	background-color: white;
+
+}
+.exp small{
+	padding-top: 15px;
+	display: block;
+}
+.projects img{
+	width: 31%;
+	padding:4px;
+	margin-bottom:5px;
+	margin-left: 5px; 
+}
+.formbox{
+	margin-top: 30px;
+}
+.inputg input{
+	width: 45%;
+	border:0;
+	outline: none !important;
+	padding:10px;
+	margin: 2%;
+	display: inline-block;
+}
+.texta textarea{
+	width: 95%;
+	border:0;
+	outline: none !important;
+	padding:10px;
+	margin: 2%;
+}
+.sub{
+	border:0;
+	outline: none !important;
+	padding:10px 20px;
+	margin: 2%;
+	background: #2ab0ff;
+	cursor: pointer;
+	color: white;
+}
+.tact img{
+	width: 20px;
+	margin: -5px 10px;
+}
+.tact span{
+	margin:3%;
+}
+.tact{
+	margin:5% 0 5% 0;
+	width:65%;
+}
+.copyright{
+	text-align: center;
+	margin-bottom: 0px;
+	font-size: 14px;
+	background-color:green;
+	color: white;
+
+}
+@media only screen and (max-width: 900px){
+	.info{
+		width: 100%;
+		overflow:inherit;
+	}
+	.profile{
+		width:100%;
+	}
+	.exp{
+		width: 95%;
+		margin-bottom: 10%;
+	}
+	.exp img{
+		height: 8%;
+		margin: 10px 0;
+
+	}
+	.projects img{
+		width: 30%;
+
+	}
+	span{
+		display: block;
+	}
+}
